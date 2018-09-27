@@ -54,9 +54,9 @@ namespace MVCRockers
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "269308473700175",
+               appSecret: "2aa7617ac8df8cbb3175f0597d410997");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
