@@ -14,7 +14,7 @@ namespace MVCRockers.Controllers
         // Home/Index
         public ActionResult Index()
         {
-            return View();
+            return View("Splash");
         }
 
         [HandleError(ExceptionType = typeof(DivideByZeroException), View ="MathError")]
